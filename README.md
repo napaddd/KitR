@@ -16,7 +16,7 @@ These two ways can only be accessed if you have OP permissions.
 ## ⚙️ Features
 In the Kit Config, there are 5 categories : 
 
-_(See **Gallery** for more details)_
+_(See **Gallery** in the modrinth page for more details)_
 ### ![Weapons Icon](https://cdn.modrinth.com/data/cached_images/69b0fbb2b92ffdde72823bd0ea561582e9323888.png) Weapons, tools and armor
 Toggle every single Netherite piece, the netherite upgrade and has 2 sub-categories : Mace Options and Explosives Options
 ### ![Utilites Icon](https://cdn.modrinth.com/data/cached_images/28c6b3288d065f0ea1fbb696d647342dd0517ae2.gif) Utilities
