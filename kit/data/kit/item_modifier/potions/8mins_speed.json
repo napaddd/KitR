@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:potion_contents": {
+      "custom_color": 3402751,
+      "custom_name": "swiftness",
+      "custom_effects": [
+        {
+          "id": "minecraft:speed",
+          "amplifier": 1,
+          "duration": 9600
+        }
+      ]
+    },
+    "minecraft:custom_data": {
+      "longer_speed_2": true
+    }
+  },
+  "conditions": []
+}

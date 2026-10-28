@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:consumable": {
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:teleport_randomly"
+                    }
+                ]
+            },
+            "!minecraft:custom_data": {}
+        }
+    }
+]

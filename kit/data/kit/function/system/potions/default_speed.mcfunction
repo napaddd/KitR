@@ -1,0 +1,41 @@
+# Hotbar
+execute if items entity @s hotbar.0 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.0 kit:potions/normal_speed
+execute if items entity @s hotbar.1 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.1 kit:potions/normal_speed
+execute if items entity @s hotbar.2 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.2 kit:potions/normal_speed
+execute if items entity @s hotbar.3 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.3 kit:potions/normal_speed
+execute if items entity @s hotbar.4 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.4 kit:potions/normal_speed
+execute if items entity @s hotbar.5 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.5 kit:potions/normal_speed
+execute if items entity @s hotbar.6 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.6 kit:potions/normal_speed
+execute if items entity @s hotbar.7 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.7 kit:potions/normal_speed
+execute if items entity @s hotbar.8 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s hotbar.8 kit:potions/normal_speed
+# Inventory
+execute if items entity @s inventory.0 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.0 kit:potions/normal_speed
+execute if items entity @s inventory.1 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.1 kit:potions/normal_speed
+execute if items entity @s inventory.2 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.2 kit:potions/normal_speed
+execute if items entity @s inventory.3 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.3 kit:potions/normal_speed
+execute if items entity @s inventory.4 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.4 kit:potions/normal_speed
+execute if items entity @s inventory.5 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.5 kit:potions/normal_speed
+execute if items entity @s inventory.6 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.6 kit:potions/normal_speed
+execute if items entity @s inventory.7 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.7 kit:potions/normal_speed
+execute if items entity @s inventory.8 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.8 kit:potions/normal_speed
+execute if items entity @s inventory.9 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.9 kit:potions/normal_speed
+execute if items entity @s inventory.10 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.10 kit:potions/normal_speed
+execute if items entity @s inventory.11 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.11 kit:potions/normal_speed
+execute if items entity @s inventory.12 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.12 kit:potions/normal_speed
+execute if items entity @s inventory.13 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.13 kit:potions/normal_speed
+execute if items entity @s inventory.14 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.14 kit:potions/normal_speed
+execute if items entity @s inventory.15 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.15 kit:potions/normal_speed
+execute if items entity @s inventory.16 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.16 kit:potions/normal_speed
+execute if items entity @s inventory.17 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.17 kit:potions/normal_speed
+execute if items entity @s inventory.18 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.18 kit:potions/normal_speed
+execute if items entity @s inventory.19 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.19 kit:potions/normal_speed
+execute if items entity @s inventory.20 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.20 kit:potions/normal_speed
+execute if items entity @s inventory.21 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.21 kit:potions/normal_speed
+execute if items entity @s inventory.22 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.22 kit:potions/normal_speed
+execute if items entity @s inventory.23 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.23 kit:potions/normal_speed
+execute if items entity @s inventory.24 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.24 kit:potions/normal_speed
+execute if items entity @s inventory.25 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.25 kit:potions/normal_speed
+execute if items entity @s inventory.26 *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s inventory.26 kit:potions/normal_speed
+# Other player slots
+execute if items entity @s weapon.offhand *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s weapon.offhand kit:potions/normal_speed
+execute if items entity @s player.cursor *[minecraft:custom_data~{longer_speed_2:true}] run item modify entity @s player.cursor kit:potions/normal_speed

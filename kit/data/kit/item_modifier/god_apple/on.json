@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 400,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:resistance",
+                "duration": 6000,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "amplifier": 0,
+                "duration": 6000,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 3,
+                "duration": 2400,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "!minecraft:custom_data": {}
+    }
+  }
+]

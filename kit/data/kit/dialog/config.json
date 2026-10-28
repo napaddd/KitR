@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "",
+  "external_title": "Kit Config",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:grindstone"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Kit Config",
+        "color": "gold",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Click on the categories below to chose which features you want to toggle ON or OFF."
+        },
+        {
+          "text": "\nNote that you need to click on \"Run Command\" between every config page.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Exit",
+    "width": 100
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/diamond_sword",
+        "extra": [
+          {
+            "text": " Weapons, tools and armor",
+            "color": "aqua",
+            "bold": false
+          }
+        ]
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function kit:dialog/weapons with storage kit:settings"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/experience_bottle",
+        "extra": [
+          {
+            "text": " Utilities",
+            "color": "yellow",
+            "bold": false
+          }
+        ]
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function kit:dialog/utilities with storage kit:settings"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/splash_potion",
+        "extra": [
+          {
+            "text": " Potions",
+            "color": "light_purple",
+            "bold": false
+          }
+        ]
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function kit:dialog/potions with storage kit:settings"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/redstone",
+        "extra": [{"text":" Custom SMP Features","color":"gold"}]
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function kit:dialog/smp_features with storage kit:settings"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/oak_sign",
+        "extra": [{"text":" Miscellaneous","color":"dark_green"}]
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function kit:dialog/misc with storage kit:settings"
+      }
+    }
+  ]
+}

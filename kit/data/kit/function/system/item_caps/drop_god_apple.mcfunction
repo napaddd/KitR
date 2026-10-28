@@ -1,0 +1,3 @@
+$clear @s minecraft:enchanted_golden_apple $(god_apple_count)
+$loot spawn ~ ~ ~ loot {pools:[{rolls:1,entries:[{type:"minecraft:item",name:"minecraft:enchanted_golden_apple",functions:[{function:"minecraft:set_count",count:$(god_apple_count)}]}],functions:[]}]}
+execute as @e[distance=...1,type=minecraft:item,nbt={Item:{id:"minecraft:enchanted_golden_apple"}}] run data modify entity @s PickupDelay set value 100s

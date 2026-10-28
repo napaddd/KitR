@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:glider": {},
+    "!minecraft:custom_data": {}
+  }
+}

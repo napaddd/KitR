@@ -1,0 +1,54 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:music_disc_5",
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "minecraft:mace",
+      "minecraft:item_name": {
+        "translate": "item.minecraft.mace"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "amount": -3.4,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:enchantable": {
+        "value": 15
+      },
+      "minecraft:max_damage": 500,
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:repairable": {
+        "items": "minecraft:breeze_rod"
+      },
+      "minecraft:tool": {
+        "rules": [],
+        "damage_per_block": 2,
+        "can_destroy_blocks_in_creative": false
+      },
+      "!minecraft:jukebox_playable": {},
+      "minecraft:weapon": {}
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "mace_off": true
+    }
+  }
+]

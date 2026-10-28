@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "shield_off": true
+      },
+      "!minecraft:blocks_attacks": {}
+    }
+  }
+]

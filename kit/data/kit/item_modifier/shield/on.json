@@ -1,0 +1,19 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 0.25,
+        "item_damage": {
+          "threshold": 3,
+          "base": 1,
+          "factor": 1
+        },
+        "block_sound": "minecraft:item.shield.block",
+        "disabled_sound": "minecraft:item.shield.break",
+        "bypassed_by": "#minecraft:bypasses_shield"
+      },
+      "!minecraft:custom_data": {}
+    }
+  }
+]

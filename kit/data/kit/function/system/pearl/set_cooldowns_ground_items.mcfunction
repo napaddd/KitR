@@ -1,0 +1,1 @@
+$execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_pearl"}}] run data modify entity @s Item merge value {components:{"minecraft:use_cooldown": {seconds: $(pearl_cooldown).0f}}}

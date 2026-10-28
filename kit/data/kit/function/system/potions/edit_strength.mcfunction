@@ -1,0 +1,41 @@
+# Hotbar
+execute if items entity @s hotbar.0 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.0 kit:potions/8mins_strength
+execute if items entity @s hotbar.1 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.1 kit:potions/8mins_strength
+execute if items entity @s hotbar.2 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.2 kit:potions/8mins_strength
+execute if items entity @s hotbar.3 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.3 kit:potions/8mins_strength
+execute if items entity @s hotbar.4 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.4 kit:potions/8mins_strength
+execute if items entity @s hotbar.5 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.5 kit:potions/8mins_strength
+execute if items entity @s hotbar.6 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.6 kit:potions/8mins_strength
+execute if items entity @s hotbar.7 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.7 kit:potions/8mins_strength
+execute if items entity @s hotbar.8 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s hotbar.8 kit:potions/8mins_strength
+# Inventory
+execute if items entity @s inventory.0 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.0 kit:potions/8mins_strength
+execute if items entity @s inventory.1 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.1 kit:potions/8mins_strength
+execute if items entity @s inventory.2 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.2 kit:potions/8mins_strength
+execute if items entity @s inventory.3 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.3 kit:potions/8mins_strength
+execute if items entity @s inventory.4 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.4 kit:potions/8mins_strength
+execute if items entity @s inventory.5 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.5 kit:potions/8mins_strength
+execute if items entity @s inventory.6 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.6 kit:potions/8mins_strength
+execute if items entity @s inventory.7 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.7 kit:potions/8mins_strength
+execute if items entity @s inventory.8 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.8 kit:potions/8mins_strength
+execute if items entity @s inventory.9 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.9 kit:potions/8mins_strength
+execute if items entity @s inventory.10 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.10 kit:potions/8mins_strength
+execute if items entity @s inventory.11 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.11 kit:potions/8mins_strength
+execute if items entity @s inventory.12 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.12 kit:potions/8mins_strength
+execute if items entity @s inventory.13 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.13 kit:potions/8mins_strength
+execute if items entity @s inventory.14 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.14 kit:potions/8mins_strength
+execute if items entity @s inventory.15 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.15 kit:potions/8mins_strength
+execute if items entity @s inventory.16 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.16 kit:potions/8mins_strength
+execute if items entity @s inventory.17 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.17 kit:potions/8mins_strength
+execute if items entity @s inventory.18 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.18 kit:potions/8mins_strength
+execute if items entity @s inventory.19 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.19 kit:potions/8mins_strength
+execute if items entity @s inventory.20 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.20 kit:potions/8mins_strength
+execute if items entity @s inventory.21 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.21 kit:potions/8mins_strength
+execute if items entity @s inventory.22 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.22 kit:potions/8mins_strength
+execute if items entity @s inventory.23 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.23 kit:potions/8mins_strength
+execute if items entity @s inventory.24 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.24 kit:potions/8mins_strength
+execute if items entity @s inventory.25 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.25 kit:potions/8mins_strength
+execute if items entity @s inventory.26 *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s inventory.26 kit:potions/8mins_strength
+# Other player slots
+execute if items entity @s weapon.offhand *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s weapon.offhand kit:potions/8mins_strength
+execute if items entity @s player.cursor *[minecraft:potion_contents={potion:"minecraft:strong_strength"}] run item modify entity @s player.cursor kit:potions/8mins_strength

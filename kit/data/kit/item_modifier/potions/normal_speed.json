@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:potion_contents": {
+      "potion": "minecraft:strong_swiftness",
+      "custom_effects": []
+    },
+    "!minecraft:custom_data": {}
+  },
+  "conditions": []
+}

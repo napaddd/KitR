@@ -1,0 +1,11 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "!minecraft:consumable": {},
+            "minecraft:custom_data": {
+                "god_apple_off": 1
+            }
+        }
+    }
+]

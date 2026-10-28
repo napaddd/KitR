@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "crafted_mace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mace"
+      }
+    }
+  },
+  "rewards": {
+    "function": "kit:system/mace/crafted"
+  }
+}

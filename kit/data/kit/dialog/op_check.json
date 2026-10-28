@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "",
+  "external_title": "Kit Config",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "OP Check",
+        "color": "yellow",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "You can only access the config if you have OP permissions."
+    }
+  ],
+  "inputs": [],
+  "pause": true,
+  "actions": [
+    {
+      "label": {
+        "text": "I am OP",
+        "color": "green"
+      },
+      "width": 80,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function kit:config"
+      }
+    },
+    {
+      "label": {
+        "text": "I am not OP",
+        "color": "red",
+        "bold": true
+      },
+      "width": 80
+    }
+  ]
+}

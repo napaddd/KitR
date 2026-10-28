@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantable": {
+        "value": 15
+      },
+      "minecraft:enchantments": {}
+    }
+  }
+]
